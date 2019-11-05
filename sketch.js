@@ -3,8 +3,10 @@ function setup() {
 }
 
 function draw() {
+  text("Time's up. Your therapet has to see her next patient now. Good bye.");
   prescription();
 }
+
 function prescription() {
   fill(255);
   rect(50, 50, 300, 300, 20);
