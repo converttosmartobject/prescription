@@ -10,7 +10,7 @@ function timesUp() {
   textStyle(NORMAL);
   textSize(19);
   text('Times Up. Your therapet has to see her next patient now. Goodbye.', 10, 30);
-   button = createButton('dont forget your prescription!');
+   button = createButton('double click to pick up your prescription');
   button.position(60, 60);
   button.mousePressed(prescription);
 }
